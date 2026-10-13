@@ -8,7 +8,7 @@
 
 An **embeddable AI concierge for business websites** — it answers customer questions (menu, hours, pricing, dietary, directions) and walks visitors through booking, 24/7, in any language. Shown here live on a fictional restaurant; the same widget re-brands to any business by editing one config object.
 
-### 🔗 [**View Live Demo →**](https://ai-concierge-ax.vercel.app)
+### 🔗 [**View Live Demo →**](https://ai-concierge-gold.vercel.app)
 
 > Tap the glowing button, bottom-right, and ask it anything about the restaurant.
 
