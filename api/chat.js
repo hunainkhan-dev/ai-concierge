@@ -8,7 +8,7 @@ import { businessContext, business } from '../src/lib/business.js';
 // it is never shipped to the browser.
 
 const GROQ_URL = 'https://api.groq.com/openai/v1/chat/completions';
-const MODEL = process.env.GROQ_MODEL || 'llama-3.3-70b-versatile';
+const MODEL = process.env.GROQ_MODEL || 'qwen/qwen3.8-27b';
 
 const SYSTEM_PROMPT = `
 You are the friendly AI concierge for "${business.name}". You help website visitors with questions about the business and help them book a table.
