@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-ink text-cream font-body antialiased;
+  }
+  ::selection {
+    @apply bg-saffron text-ink;
+  }
+}
+
+/* Thin, elegant scrollbar for the chat log */
+.scroll-slim::-webkit-scrollbar {
+  width: 6px;
+}
+.scroll-slim::-webkit-scrollbar-thumb {
+  background: #3a312b;
+  border-radius: 99px;
+}
+.scroll-slim {
+  scrollbar-width: thin;
+  scrollbar-color: #3a312b transparent;
+}
+
+.glass {
+  background: rgba(23, 19, 17, 0.72);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
